@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="gauche">
+            <a href="#profil"><img width="50px" height="50px" src="danso.jpg" alt="danso"></a>
+            <span class="monprofil"><a href="#profil">Mon profil</a></span>
+        </div>
+        <div class="droite">
+            <ul class="ul1">
+                <li><span>___</span></li>
+                <li><span>___</span>
+                    <div class="submenu">
+                        <ul>
+                            <li> <a href="#home">home</a></li>
+                            <li><a href="#mecontact">me contacter</a></li>
+                            <li><a href="#about">about me</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><span>___</span></li>
+            </ul>
+            
+        </div>
+    </header>
+    <main id="home">
+        <img  src="danso.jpg" alt="danso">
+        <div class="text">
+            <span><h1>BONJOUR</h1></span>
+            <span><h2>je m appelle Seydou</h2></span>
+            <span class="trois">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam neque eum tempore dolore. Animi itaque quasi molestiae! Earum illum </span>
+            <a href="#profil"><input type="submit" value="about me"></a>
+        </div>
+        
+    </main>
+    <hr>
+    <div id="profil" class="centre">
+        <div class="carte">
+            <img  src="developpeur.png" alt="developpeur">
+            <div class="titre">
+                <h2><a href="#carriere">developpeur</a></h2>
+                <hr>
+            </div>
+        </div>
+        <div class="carte">
+            <img  src="carriere.png" alt="carriere">
+            <div class="titre">
+                <a href="#carriere"><h2>carriere</h2></a>
+                <hr>
+            </div>
+        </div>
+        <div class="carte">
+            <img  src="ambition.png" alt="ambition">
+            <div class="titre">
+                <a href="#about"><h2>ambitions</h2></a>
+                <hr>
+            </div>
+        </div>
+        <div class="carte">
+            <img  src="contact.png" alt="contact">
+            <div class="titre">
+                <a href="#mecontact"><h2>contact</h2></a>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h1 >ABOUT ME</h1>
+        <div class="asavoir">
+            <div  class="competences">
+                <h2 id="carriere"><u>COMPETENCES</u></h2>
+                <p>html:90%</p>
+                <p>css:70%</p>
+                <p>javascript:2%</p>
+                <p>python:0%</p>
+                <p>java:0%</p>
+                <p>language c:30%</p>
+                <p>boostrap:0%</p>
+            </div>
+            <div class="mecontacter">
+                <h2><u>CONTACT</u></h2>
+                <p>nous contacter plus bas </p>
+            </div>
+            <div class="aboutme">
+                <h2 id="about"><u>ABOUT ME</u></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab minima facilis, nobis numquam tenetur qui voluptatibus mollitia cum quasi alias ea omnis praesentium sit voluptatem veniam rerum. Omnis, ex.</p>
+            </div>
+        </div>
+        <hr class="hrf">
+        <h1 id="mecontact">CONTACTEZ-NOUS</h1>
+        <form class="form1" action="#">
+            <div><input type="email" placeholder="email" ></div>
+            <div><input type="password" name="password" placeholder="password"></div>
+            <div><input class="message" type="text" placeholder="votre message..." ></div>
+            <div><input class="envoyer" type="button" value="envoyer"></div>
+        </form>
+    </footer>
+</body>
+</html>
